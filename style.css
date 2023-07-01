@@ -8,7 +8,7 @@
 .container{
 	height: 100vh;
 	width: max-width;
-	background-image: url("images/background_outline_5in.svg");
+	background-image: url("images/background_outline.svg");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -30,7 +30,7 @@
 }
 
 .header  p{
-	font-size: 80px;
+	font-size: 40px;
 	font-weight: 100;
 	text-align: center;
 	margin-top: 10%; 
