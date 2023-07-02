@@ -1,7 +1,7 @@
 @charset "urf-8";
 *{
 	margin: 0;
-	padding: 0;
+	padding: 0%;
 	font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
@@ -12,20 +12,19 @@
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-
 }
 
 .logo img{
 	overflow: hidden;
 	width: 6%;
-	margin: 8% 20%;
+	margin: 3% 16.5%;
 }
 
 .header  h1{
 	font-size: 175%;
 	font-weight: 100;
 	text-align: center;
-	margin-top: -17%; 
+	margin-top: 3%; 
 	
 }
 
@@ -33,11 +32,89 @@
 	font-size: 100%;
 	font-weight: 100;
 	text-align: center;
-	margin-top: 10px; 
-	margin-bottom: 15px;
 }
 
 .header{
 	margin-left: 0%; 
 	margin-top: -15%;
 }
+
+/*
+.menu img{
+	width: 6%;
+	float: left;
+	padding-left: 25%;
+}
+*/
+
+.drink1{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0%;
+}
+
+.drink2{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink3{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink4{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink5{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink6{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink7{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink8{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink9{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+.drink10{
+	font-size: 90%;
+	font-weight: 100;
+	text-align: center;
+	padding-top: 0.5%;
+}
+
+
