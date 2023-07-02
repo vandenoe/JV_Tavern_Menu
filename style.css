@@ -8,7 +8,7 @@
 .container{
 	height: 100vh;
 	width: 100vh;
-	background-image: url("images/background_outline_nopadding.svg");
+	background-image: url("images/background_outline_padding_6x9.svg");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -51,7 +51,7 @@
 	font-size: 90%;
 	font-weight: 100;
 	text-align: center;
-	padding-top: 2%;
+	padding-top: 3%;
 }
 
 .drink2{
