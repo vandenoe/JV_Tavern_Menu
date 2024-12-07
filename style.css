@@ -1,3 +1,102 @@
+/* Basic body styling */
+body, html {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+}
+
+/* Main container with image border */
+.container-header {
+    position: relative;
+    max-width: 100%;
+    width: 95%; 
+    height: auto;
+    max-height: 90vh;
+    border: 20px solid transparent; 
+    border-image: url("images/background_outline_padding_6x9.svg") 20 fill;
+    display: flex;
+    flex-direction: column; 
+    padding: 10px; 
+}
+.scrollable-content {
+    overflow: auto; /* Enable scrolling */
+    height:80vh; 
+}
+
+/* Main container text */
+.container-header-text {
+    display: flex; 
+    align-items: center; /* Center items vertically */
+    flex: 1; /* Take available space */
+    flex-direction: column;
+    max-width: 100%; 
+}
+
+/* Logo styling */
+.logo {
+    width: 10vw; 
+    max-width: 10vw; 
+    height: auto; /* Keep aspect ratio */
+    padding:1vh;
+    margin: 0; /* Remove unnecessary margins */
+}
+/* Custom scrollbar for webkit browsers */
+.container-header::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+.container-header::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); /* Track color */
+
+}
+
+/* Handle */
+.container-header::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5); /* Scrollbar handle color */
+    border-radius: 4px; /* Round the corners of the handle */
+}
+
+/* Handle on hover */
+.container-header::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.7); /* Darker on hover */
+}
+/* Header styling */
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+    padding: 10px;
+}
+
+.header h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 5vw; 
+    max-width: 90%;
+    word-wrap: break-word; 
+}
+
+.header p {
+    margin: 0; 
+    font-size: 1.5vw;
+    max-width: 90%; 
+    word-wrap: break-word;
+}
+
+.drink-list {
+    margin: 0; 
+    padding: 10px; 
+    text-align: center; 
+    font-size: 2.5vw; 
+    max-width: 90%; 
+    overflow-wrap: break-word; 
+}
+
+
+/*
 @charset "urf-8";
 *{
 	margin: 0;
@@ -37,14 +136,6 @@
 	margin-left: 0%; 
 	margin-top: -18%;
 }
-
-/*
-.menu img{
-	width: 6%;
-	float: left;
-	padding-left: 25%;
-}
-*/
 
 .drink1{
 	font-size: 90%;
@@ -115,5 +206,12 @@
 	text-align: center;
 	padding-top: 2%;
 }
+*/
 
-
+/*
+.menu img{
+	width: 6%;
+	float: left;
+	padding-left: 25%;
+}
+*/
